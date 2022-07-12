@@ -1,0 +1,10 @@
+body {
+  font-family: Open Sans, Arial, sans-serif;
+  font-size: 1rem;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+}
