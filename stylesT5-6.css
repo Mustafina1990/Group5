@@ -1,0 +1,59 @@
+
+body{
+  font-size: 100%;
+}
+section{
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  top: 100px;
+  right: 0;
+}
+.container{display: inline-block;
+  width: inherit;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.img-center{
+text-align: center;
+}
+.text-main{
+  position: absolute;
+  bottom: 5%;
+  left: 20%;
+  color: white;
+}
+@media screen and (min-width: 600px) {
+  div.text-main {
+    font-size: 4.4em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.text-main {
+    font-size: 1.4em;
+  }
+}
+.butt-I {
+  position: fixed;
+  top: 50%;
+  right: 2%;
+  background-color: rgb(107, 28, 28);
+  width: 80px;
+  height: 80px;
+  font-size: 3em;
+  border-radius: 5%;
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .butt-I {
+    display: none;
+  }
+}
+div {
+}
