@@ -1,15 +1,21 @@
-
-body{
+body {
   font-size: 100%;
 }
-section{
+
+section {
+  padding-top: 100px;
+}
+
+.img-main {
   display: inline-block;
   width: 100%;
   position: relative;
   top: 100px;
   right: 0;
 }
-.container{display: inline-block;
+
+.container-main {
+  display: inline-block;
   width: inherit;
   position: relative;
   top: 0;
@@ -19,15 +25,13 @@ section{
   padding-right: 0;
 }
 
-.img-center{
-text-align: center;
-}
-.text-main{
+.text-main {
   position: absolute;
   bottom: 5%;
   left: 20%;
   color: white;
 }
+
 @media screen and (min-width: 600px) {
   div.text-main {
     font-size: 4.4em;
@@ -39,6 +43,7 @@ text-align: center;
     font-size: 1.4em;
   }
 }
+
 .butt-I {
   position: fixed;
   top: 50%;
@@ -50,10 +55,31 @@ text-align: center;
   border-radius: 5%;
   color: white;
 }
+
 @media screen and (max-width: 600px) {
   .butt-I {
     display: none;
   }
 }
-div {
+
+.text-rigth {
+  float: right;
+}
+
+.header-main {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+#bord-left {
+  border-left: 1px solid grey;
+}
+
+.padding {
+  padding: 5%;
+}
+
+.f-size {
+  font-size: 1.5em
 }
