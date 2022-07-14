@@ -1,47 +1,52 @@
 body {
   font-size: 100%;
+  height: 2000px;
 }
-
-section {
-  padding-top: 100px;
+*{
+  margin: 0;
+  box-sizing: border-box;
 }
-.color-back{
-  background-color: rgb(243,243,241);
+:root {
+  --background-color: rgb(243, 243, 241);
+  --black-color: black;
+  --white-color: white;
+  --red-but-color: rgb(107, 28, 28);
+  --grey-color: rgb(156,156,156);
+ 
 }
-
 .img-main {
   display: inline-block;
   width: 100%;
   position: relative;
-  top: 100px;
+  top: 0;
   right: 0;
 }
-
-.container-main {
-  display: inline-block;
-  width: inherit;
-  position: relative;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding-left: 0;
-  padding-right: 0;
+.marg-top5{
+  margin-top: 2px;
 }
+.color-back{
+  background-color: var(--background-color);
+} 
 
 .text-main {
   position: absolute;
   bottom: 5%;
   left: 20%;
-  color: white;
+  color: var(--white-color);
 }
-
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 992px) {
   div.text-main {
-    font-size: 4.4em;
+    font-size: 3.4em;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 768px) {
+  div.text-main {
+    font-size: 2.4em;
+  }
+}
+
+@media screen and (max-width: 768px) {
   div.text-main {
     font-size: 1.4em;
   }
@@ -51,12 +56,12 @@ section {
   position: fixed;
   top: 50%;
   right: 2%;
-  background-color: rgb(122,18,20);
+  background-color: var(--red-but-color);
   width: 80px;
   height: 80px;
   font-size: 3em;
   border-radius: 5%;
-  color: white;
+  color: var(--white-color);
 }
 
 @media screen and (max-width: 600px) {
@@ -76,7 +81,8 @@ section {
 }
 
 #bord-left {
-  border-left: 1px solid grey;
+  border-left: 1px solid var(--grey-color);
+  padding-left: 20px;
 }
 
 .padding {
