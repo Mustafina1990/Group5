@@ -1,0 +1,61 @@
+article {
+    display: flex;
+    height: 500px;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: medium;
+}
+
+.aArticle {
+    padding: 140px 10px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    width: 50%;
+    margin: 0;
+}
+
+.aArticle:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.imgArticle {
+    margin: 0;
+    width: 50%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.red {
+    background-color: rgb(112, 30, 30);
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-size: small;
+}
+
+.orange {
+    background-color: rgb(158, 88, 23);
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-size: small;
+}
+
+.green {
+    background-color: rgb(4, 99, 34);
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-size: small;
+}
+
+.lightRed {
+    background-color: rgb(192, 45, 45);
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-size: small;
+}
