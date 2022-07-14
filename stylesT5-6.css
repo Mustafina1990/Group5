@@ -86,3 +86,18 @@ section {
 .f-size {
   font-size: 1.5em
 }
+.color-button {
+  width: 100%;
+  margin: 50px;
+  padding: 15px;
+  background-color: rgb(132, 114, 72);
+  border: 2px solid black;
+  box-shadow: inset 2px 2px white;
+
+  border-radius: 0;
+}
+
+.color-button:hover {
+  background-color: rgb(132, 114, 72);
+  border: 2px solid black;
+}
