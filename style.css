@@ -1,0 +1,165 @@
+.aside {
+  background: rgb(51, 51, 51);
+}
+
+.button-menu-aside {
+  width: 70px;
+  background: rgb(51, 51, 51);
+  margin-top: 50px;
+}
+
+.button-close {
+  color: rgb(255, 255, 255);
+  width: 50px;
+}
+.form-search {
+  background: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+}
+
+#demo {
+  background-color: rgb(51, 51, 51);
+}
+.offcanvas-body {
+  background-color: rgb(51, 51, 51);
+}
+.search {
+  background-color: rgb(51, 51, 51);
+  font-size: 24px;
+}
+.fa-magnifying-glass {
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
+
+.side-menu {
+  margin-top: 30px;
+}
+
+.list-group-item {
+  background-color: rgb(51, 51, 51);
+}
+.visit-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-right {
+  font-size: 26px;
+  padding: 10px;
+}
+
+.a-aside {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.a-aside:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+.dropdown-menu {
+  background-color: rgb(34, 34, 34);
+}
+.dropdown-item {
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(173, 170, 170);
+}
+.dropdown-item:hover {
+  background: none;
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+* {
+  font-family: Open Sans, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+}
+
+.logo__picture {
+  justify-self: start;
+  align-self: center;
+  margin-left: -55px;
+  height: 64px;
+}
+
+.nav-link__color {
+  font-size: 24px;
+  color: #fff;
+}
+
+.nav-link__color:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.container__main {
+  display: flex;
+  max-width: 70%;
+  margin-bottom: 0px;
+}
+
+.container__flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-hiden {
+  display: none;
+}
+
+.size {
+  font-size: 12px;
+  padding-left: 0px;
+}
+
+.elem-pad {
+  padding: 15px;
+}
+
+.icon-color {
+  color: #fff;
+}
+
+.navbar-first__hide {
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 990px) {
+  .navbar-first__hide {
+    display: none;
+  }
+
+  .logo__picture {
+    height: 44px;
+    margin: auto;
+  }
+
+  .nav-small {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .nav-link__color {
+    font-size: 20px;
+  }
+
+  .logo__margin {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 245px) {
+  .nav-small {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .nav-link__color {
+    font-size: 15px;
+  }
+}
