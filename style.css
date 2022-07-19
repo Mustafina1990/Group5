@@ -6,10 +6,21 @@ body {
     padding: 0px 10%;
     display: flex;
     text-align: center;
-    margin: 10px 0px 0px;
+    margin: 0;
     font-size: large;
     text-transform: uppercase;
     background-color: rgb(54, 53, 53);
+}
+
+@media screen and (max-width: 750px) {
+    .MainNav {
+        padding: 10px 5%;
+        flex-wrap: wrap;
+    }
+
+    .aMainNav {
+        width: 50%;
+    }
 }
 
 .aMainNav {
