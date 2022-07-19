@@ -1,0 +1,70 @@
+.aside {
+  background: rgb(51, 51, 51);
+}
+
+.button-menu-aside {
+  width: 70px;
+  background: rgb(51, 51, 51);
+}
+
+.button-close {
+  color: rgb(255, 255, 255);
+  width: 50px;
+}
+.form-search {
+  background: rgb(51, 51, 51);
+  color: aliceblue;
+}
+
+#demo {
+  background-color: rgb(51, 51, 51);
+}
+.offcanvas-body {
+  background-color: rgb(51, 51, 51);
+}
+.search {
+  background-color: rgb(51, 51, 51);
+  font-size: 24px;
+}
+.fa-magnifying-glass {
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
+.side-menu {
+  margin-top: 30px;
+}
+
+.list-group-item {
+  background-color: rgb(51, 51, 51);
+}
+.visit-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-right {
+  font-size: 26px;
+  padding: 10px;
+}
+
+.a-aside {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.a-aside:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+.dropdown-menu {
+  background-color: rgb(34, 34, 34);
+}
+.dropdown-item {
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(86, 86, 86);
+}
+.dropdown-item:hover {
+  background: none;
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
