@@ -1,9 +1,6 @@
 article {
     display: flex;
-    height: 500px;
     margin: 0;
-    padding-left: 0;
-    padding-right: 0;
     font-size: medium;
 }
 
@@ -13,12 +10,12 @@ article {
 }
 
 .aArticle {
-    padding: 140px 10px 140px 20px;
     color: black;
     background-color: white;
     text-decoration: none;
     width: 50%;
     margin: 0;
+    padding: 3%;
 }
 
 .aArticle:hover {
@@ -29,8 +26,46 @@ article {
 .imgArticle {
     margin: 0;
     width: 50%;
-    height: 500px;
     object-fit: cover;
+}
+
+@media screen and (max-width: 600px) {
+  article {
+    display: block;
+  }
+
+  .imgArticle {
+    width: 100%;
+    height: 300px;
+  }
+
+  .aArticle {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .imgArticle {
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 976px) {
+  .imgArticle {
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .imgArticle {
+    height: 500px;
+  }
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .red {
