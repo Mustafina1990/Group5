@@ -1,4 +1,3 @@
-
 .aside {
   background: rgb(51, 51, 51);
 }
@@ -6,6 +5,7 @@
 .button-menu-aside {
   width: 70px;
   background: rgb(51, 51, 51);
+  margin-top: 50px;
 }
 
 .button-close {
@@ -14,7 +14,7 @@
 }
 .form-search {
   background: rgb(51, 51, 51);
-  color: aliceblue;
+  color: rgb(255, 255, 255);
 }
 
 #demo {
@@ -31,6 +31,7 @@
   font-size: 24px;
   color: rgb(255, 255, 255);
 }
+
 .side-menu {
   margin-top: 30px;
 }
@@ -62,17 +63,16 @@
 }
 .dropdown-item {
   color: rgb(255, 255, 255);
-  border-bottom: 1px solid rgb(86, 86, 86);
+  border-bottom: 1px solid rgb(173, 170, 170);
 }
 .dropdown-item:hover {
   background: none;
   text-decoration: underline;
   color: rgb(255, 255, 255);
+}
 * {
   font-family: Open Sans, Arial, sans-serif;
-  font-size: 1rem;
   box-sizing: border-box;
-  margin: 0 auto;
 }
 
 header {
