@@ -12,17 +12,6 @@ body {
     background-color: rgb(54, 53, 53);
 }
 
-@media screen and (max-width: 750px) {
-    .MainNav {
-        padding: 10px 5%;
-        flex-wrap: wrap;
-    }
-
-    .aMainNav {
-        width: 50%;
-    }
-}
-
 .aMainNav {
     width: 25%;
     background-color: rgb(54, 53, 53);
@@ -35,4 +24,15 @@ body {
     background-color: black;
     color: white;
     text-decoration: none;
+}
+
+@media screen and (max-width: 750px) {
+    .MainNav {
+        padding: 10px 5%;
+        flex-wrap: wrap;
+    }
+
+    .aMainNav {
+        width: 50%;
+    }
 }
