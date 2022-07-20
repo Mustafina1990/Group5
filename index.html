@@ -9,11 +9,65 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Vasamuseet</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="stylesT5-6.css" />
 </head>
 
 <body>
-  <nav class="MainNav">
-    <a class="aMainNav text-uppercase" href="https://www.vasamuseet.se/besok/audioguide" target="_self">
+  <main>
+    <!--VM-1.3 Main title-->
+    <section class="img-main">
+      <div class="container-main">
+        <img class="imgM"
+          src="https://www.vasamuseet.se/globalassets/vasamuseet/bilder/museet/vasamuseet-var-blommor.jpg?w=1400"
+          alt="Vasamuseet">
+      </div>
+      <div class="text-main">
+        Välkommen till Vasamuseet
+      </div>
+      <div class="gradient"></div>
+
+    <a href="#T-5-7">
+      <button class="butt-I">
+        &#709;
+      </button>
+    </a>
+    </section>
+
+    <!--VM-1.4 Main Öppettider/Priser-->
+    <section class="grey padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 align-items-center  padding1">
+            <h1 class="header-main"><i class="fa fa-calendar"></i> Öppettider</h1><br>
+            <div>
+              <span class="f-size">Dagligen juni-augusti:</span>
+              <span class="f-size text-rigth">kl. 8.30-18</span>
+            </div>
+            <br>
+            <div>
+              <span class="f-size">Stängt:</span>
+              <span class="f-size text-rigth">24, 25 december</span>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 align-items-center  padding1" id="bord-left">
+            <h1 class="header-main"><i class="fa fa-tags"></i> Priser</h1><br>
+            <div>
+              <span class="f-size">Maj-september:</span>
+              <span class="f-size text-rigth">190 kr</span>
+            </div>
+            <br>
+            <div>
+              <span class="f-size">Upp till och med 18 år:</span>
+              <span class="f-size text-rigth">Fri entré</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--VM-1.5 Main Nav-->
+     <nav class="MainNav">
+     <a class="aMainNav text-uppercase" href="https://www.vasamuseet.se/besok/audioguide" target="_self">
       <i class="fa fa-headphones" style="font-size:36px"></i>
       <p>Audioguide</p>
     </a>
@@ -30,6 +84,8 @@
       <p>Sok i samlingen</p>
     </a>
   </nav>
+  </main>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   
