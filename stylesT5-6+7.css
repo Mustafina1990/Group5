@@ -1,0 +1,139 @@
+/*body {
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--text-color);
+}*/
+
+:root {
+  --background-color: rgb(243, 243, 241);
+  --black-color: black;
+  --white-color: white;
+  --red-but-color: rgb(107, 28, 28);
+  --grey-color: rgb(156, 156, 156);
+  --text-color: rgb(85, 85, 85);
+}
+
+.img-main {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.imgM {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.marg-top5 {
+  margin-top: 2px;
+}
+
+.color-back {
+  background-color: var(--background-color);
+}
+
+.gradient {
+  background: linear-gradient(rgba(10, 10, 10, 0), black 80%);
+  position: absolute;
+  bottom: 0;
+  opacity: 0.9;
+  width: 100%;
+  height: 30%;
+}
+
+.text-main {
+  position: absolute;
+  bottom: 5%;
+  left: 30%;
+  color: var(--white-color);
+  z-index: 1;
+}
+
+@media screen and (min-width: 992px) {
+  div.text-main {
+    font-size: 3.4em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  div.text-main {
+    font-size: 2.4em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  div.text-main {
+    font-size: 1.4em;
+  }
+}
+
+.butt-I {
+  position: fixed;
+  top: 50%;
+  right: 2%;
+  background-color: var(--red-but-color);
+  width: 80px;
+  height: 80px;
+  font-size: 3em;
+  border-radius: 5%;
+  color: var(--white-color);
+}
+
+@media screen and (max-width: 600px) {
+  .butt-I {
+    display: none;
+  }
+}
+
+.text-rigth {
+  float: right;
+}
+
+.header-main {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.padding {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.padding1 {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.f-size {
+  font-size: 1.5em
+}
+@media screen and (max-width: 992px) {
+  .padding2 {
+    padding-bottom: 4%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .padding1 {
+    padding-top: 4%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .bord-left {
+    border-left: 1px solid var(--grey-color);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .bord-top {
+    border-top: 1px solid var(--grey-color);
+  }
+}
