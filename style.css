@@ -1,4 +1,83 @@
-.end {
+body {
+    padding: 0;
+}
+
+.MainNav {
+    padding: 3px 10%;
+    display: flex;
+    text-align: center;
+    margin: 0;
+    font-size: large;
+    background-color: rgb(54, 53, 53);
+}
+
+.aMainNav {
+    width: 25%;
+    background-color: rgb(54, 53, 53);
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px 5px;
+}
+
+.aMainNav:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.aMainNav:focus {
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 750px) {
+    .MainNav {
+        padding: 10px 5%;
+        flex-wrap: wrap;
+    }
+
+    .aMainNav {
+        width: 50%;
+    }
+}
+
+.FooterContacts {
+    display: flex;
+    background-color: rgb(243, 243, 241);
+    margin: 0;
+    padding: 3%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.grey {
+    color: #555;
+}
+
+.aFooterContacts {
+    font-size: 17px;
+    color: #3b386e;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pFooter {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .FooterContacts {
+        flex-wrap: wrap;
+    }
+
+    .upPadding {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        }
+    }
+    
+    .end {
   background: rgb(51, 51, 51);
   margin: 0;
   padding: 3% 3% 5%;
