@@ -97,3 +97,20 @@ body {
     margin-top: 5%;
   }
 }
+.butt-I {
+  position: fixed;
+  top: 50%;
+  right: 2%;
+  background-color: var(--red-but-color);
+  width: 80px;
+  height: 80px;
+  font-size: 3em;
+  border-radius: 5%;
+  color: var(--white-color);
+}
+
+@media screen and (max-width: 600px) {
+  .butt-I {
+    display: none;
+  }
+}
