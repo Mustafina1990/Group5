@@ -1,72 +1,63 @@
 body {
-  font-size: 100%;
-  height: 2000px;
+  padding: 0;
 }
-*{
-  margin: 0;
-  box-sizing: border-box;
-}
+
 :root {
   --background-color: rgb(243, 243, 241);
   --black-color: black;
   --white-color: white;
   --red-but-color: rgb(107, 28, 28);
-  --grey-color: rgb(156,156,156);
- 
+  --grey-color: rgb(156, 156, 156);
+  --darkgrey-color: #555;
 }
+
 .img-main {
-  display: inline-block;
   width: 100%;
   position: relative;
   top: 0;
   right: 0;
+  object-fit: cover;
 }
-.marg-top5{
-  margin-top: 2px;
+
+.imgM {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
 }
-.color-back{
-  background-color: var(--background-color);
-} 
 
 .text-main {
   position: absolute;
   bottom: 5%;
   left: 20%;
-  color: var(--white-color);
+  color: white;
+  z-index: 1;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.gradient {
+  background: linear-gradient(rgba(10, 10, 10, 0), black 80%);
+  position: absolute;
+  bottom: 0;
+  opacity: 0.9;
+  width: 100%;
+  height: 30%;
+}
+
 @media screen and (min-width: 992px) {
   div.text-main {
-    font-size: 3.4em;
+    font-size: 4.6px;
   }
 }
 
 @media screen and (min-width: 768px) {
   div.text-main {
-    font-size: 2.4em;
+    font-size: 3.4em;
   }
 }
 
 @media screen and (max-width: 768px) {
   div.text-main {
-    font-size: 1.4em;
-  }
-}
-
-.butt-I {
-  position: fixed;
-  top: 50%;
-  right: 2%;
-  background-color: var(--red-but-color);
-  width: 80px;
-  height: 80px;
-  font-size: 3em;
-  border-radius: 5%;
-  color: var(--white-color);
-}
-
-@media screen and (max-width: 600px) {
-  .butt-I {
-    display: none;
+    font-size: 2.4em;
   }
 }
 
@@ -74,21 +65,35 @@ body {
   float: right;
 }
 
-.header-main {
-  text-align: center;
-  font-size: 3em;
-  margin-bottom: 20px;
-}
-
 #bord-left {
   border-left: 1px solid var(--grey-color);
-  padding-left: 20px;
 }
 
 .padding {
-  padding: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.padding1 {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .f-size {
-  font-size: 1.5em
+  font-size: 20px;
+}
+
+.grey {
+  color: #555;
+}
+
+@media screen and (max-width: 768px) {
+  #bord-left {
+    border-top: 1px solid var(--grey-color);
+    border-left: 0;
+    padding-top: 5%;
+    margin-top: 5%;
+  }
 }
