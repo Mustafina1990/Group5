@@ -76,3 +76,47 @@ body {
         padding-bottom: 5%;
         }
     }
+    
+    .end {
+  background: rgb(51, 51, 51);
+  margin: 0;
+  padding: 3% 3% 5%;
+  text-align: center;
+  color: white;
+  
+}
+.top-line {
+  font-size: 19px;
+  line-height: 1.4;
+  margin: 10px;
+}
+
+.partners-link {
+  font-weight: 700;
+  color: white;
+}
+.partners-link:hover {
+  color: white;
+}
+
+.partners {
+    display: block;
+    margin: 0 auto;
+   
+}
+.partners-block {
+    padding: 40px 30px 20px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.partners-logo {
+  width: 140px;
+  color: white;
+  vertical-align: middle;
+ 
+}
+.partners-logo-bottom {
+    padding-top: 30px;
+}
