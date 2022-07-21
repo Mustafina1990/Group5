@@ -1,3 +1,59 @@
+body {
+    padding: 0;
+}
+
+.MainNav {
+    padding: 0px 10%;
+    display: flex;
+    text-align: center;
+    margin: 0;
+    font-size: large;
+    background-color: rgb(54, 53, 53);
+}
+
+.aMainNav {
+    width: 25%;
+    background-color: rgb(54, 53, 53);
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px 5px;
+}
+
+.aMainNav:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 750px) {
+    .MainNav {
+        padding: 10px 5%;
+        flex-wrap: wrap;
+    }
+
+    .aMainNav {
+        width: 50%;
+    }
+}
+
+.butt-I {
+    position: fixed;
+    top: 50%;
+    right: 2%;
+    background-color: var(--red-but-color);
+    width: 80px;
+    height: 80px;
+    font-size: 3em;
+    border-radius: 5%;
+    color: var(--white-color);
+}
+
+@media screen and (max-width: 600px) {
+    .butt-I {
+        display: none;
+    }
+}
+
 article {
     display: flex;
     margin: 0;
