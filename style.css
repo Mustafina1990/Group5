@@ -23,6 +23,11 @@ article {
     text-decoration: none;
 }
 
+.aArticle:focus {
+  border: 2px solid #3b386e;
+  transform: scale(1.02);
+}
+
 .imgArticle {
     margin: 0;
     width: 50%;
