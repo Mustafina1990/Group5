@@ -70,6 +70,7 @@
   text-decoration: underline;
   color: rgb(255, 255, 255);
 }
+
 * {
   font-family: Open Sans, Arial, sans-serif;
   box-sizing: border-box;
@@ -126,6 +127,53 @@ header {
 
 .navbar-first__hide {
   margin-bottom: 0px;
+}
+
+.nav-link {
+  margin-top: 35px;
+}
+
+.nav-link__item {
+  font-weight: 400;
+  color: #3b386e;
+}
+
+.nav-link__item:hover {
+  color: #3b386e;
+}
+
+.main-header,
+.text-header,
+.text-header__second {
+  font-family: Sabon ET W03 Roman, Garamond, serif;
+  font-size: 3.8rem;
+  word-wrap: break-word;
+  font-weight: 400;
+  line-height: 1.15;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.wrraper-text {
+  font-size: 1.2rem;
+  padding-top: 15px;
+}
+
+.text-header {
+  font-size: 2.4rem;
+}
+
+.text,
+.text-second {
+  margin: 0 0 10px;
+}
+
+.color-text {
+  color: #555;
+}
+
+.text-header__second {
+  font-size: 1.6rem;
 }
 
 @media screen and (max-width: 990px) {
