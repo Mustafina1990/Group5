@@ -3,7 +3,7 @@
 }
 
 :root {
-  --background-color-icon: rgb(205,205,200);
+  --background-color-icon: rgb(205, 205, 200);
   --background-color: rgb(243, 243, 241);
   --black-color: black;
   --white-color: white;
@@ -19,6 +19,17 @@
   text-align: center;
   font-size: 3em;
   margin-bottom: 20px;
+}
+
+.padd {
+  padding: 0 5%;
+}
+
+.SocMedia {
+  display: flex;
+  justify-items: center;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .img-item {
@@ -70,19 +81,25 @@
   border: 2px solid var(--black-color);
 }
 
-@media only screen and (min-width: 992px) {
-  .img-hight {
-    height: 180px;
-    width: auto;
-  }
-}
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 976px) {
   .img-hight {
     height: 140px;
-    width: auto;
+    width: 100%;
   }
+
+  .SocMedia {
+    width: 50%;
+  }
+
 }
-.noMargin {
-  margin: 2px;
-  padding: 0;
+
+@media only screen and (min-width: 1180px) {
+  .img-hight {
+    height: 170px;
+    width: 100%;
+  }
+
+  .SocMedia {
+    width: 50%;
+  }
 }
