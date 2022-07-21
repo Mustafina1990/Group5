@@ -25,12 +25,12 @@ body {
     text-decoration: none;
 }
 
+
 .aMainNav:focus {
     border: 2px solid white;
     color: white;
     text-decoration: none;
 }
-
 @media screen and (max-width: 750px) {
     .MainNav {
         padding: 10px 5%;
@@ -41,6 +41,7 @@ body {
         width: 50%;
     }
 }
+
 
 .FooterContacts {
     display: flex;
