@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vasamuseet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="src/favicon.ico">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="stylesT5-6.css" />
   </head>
   <body>
     <header fixed-top>
@@ -389,6 +393,237 @@
         </div>
       </div>
     </header>
+     <main>
+    <!--VM-1.3 Main title-->
+    <section class="img-main">
+      <div class="container-main">
+        <img class="imgM"
+          src="https://www.vasamuseet.se/globalassets/vasamuseet/bilder/museet/vasamuseet-var-blommor.jpg?w=1400"
+          alt="Vasamuseet">
+      </div>
+      <div class="text-main">
+        Välkommen till Vasamuseet
+      </div>
+      <div class="gradient"></div>
+
+    <a href="#T-5-7">
+      <button class="butt-I">
+        &#709;
+      </button>
+    </a>
+    </section>
+
+    <!--VM-1.4 Main Öppettider/Priser-->
+    <section class="grey padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 align-items-center  padding1">
+            <h1 class="header-main"><i class="fa fa-calendar"></i> Öppettider</h1><br>
+            <div>
+              <span class="f-size">Dagligen juni-augusti:</span>
+              <span class="f-size text-rigth">kl. 8.30-18</span>
+            </div>
+            <br>
+            <div>
+              <span class="f-size">Stängt:</span>
+              <span class="f-size text-rigth">24, 25 december</span>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 align-items-center  padding1" id="bord-left">
+            <h1 class="header-main"><i class="fa fa-tags"></i> Priser</h1><br>
+            <div>
+              <span class="f-size">Maj-september:</span>
+              <span class="f-size text-rigth">190 kr</span>
+            </div>
+            <br>
+            <div>
+              <span class="f-size">Upp till och med 18 år:</span>
+              <span class="f-size text-rigth">Fri entré</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--VM-1.5 Main Nav-->
+     <nav class="MainNav">
+     <a class="aMainNav text-uppercase" href="https://www.vasamuseet.se/besok/audioguide" target="_self">
+      <i class="fa fa-headphones" style="font-size:36px"></i>
+      <p>Audioguide</p>
+    </a>
+    <a class="aMainNav text-uppercase" href="https://www.vasamuseet.se/utforska/film" target="_blank">
+      <i class="fa fa-film" style="font-size:36px"></i>
+      <p>Film</p>
+    </a>
+    <a class="aMainNav text-uppercase" href="https://www.vasamuseet.se/utforska/vasamuseets-podd" target="_self">
+      <i class="fa fa-headphones" style="font-size:36px"></i>
+      <p>Podd</p>
+    </a>
+    <a class="aMainNav text-uppercase" href="https://www.vasamuseet.se/utforska/samlingar/sok-i-samlingen" target="_blank">
+      <i class="fa fa-search" style="font-size:36px"></i>
+      <p>Sok i samlingen</p>
+    </a>
+  </nav>
+  
+  <!--VM-1.6 Main articles-->
+    <div class="row gx-0">
+        <article class="col-sm-12 col-lg-6 noPading">
+            <a class="aArticle center" href="https://www.vasamuseet.se/besok" target="_self">
+                <div>
+                    <h3><i class="fa fa-long-arrow-right"></i> Besök Vasamuseet</h3>
+                    <p class="text-secondary">Här hittar du allt du behöver veta inför och under ditt besök på
+                        Vasamuseet.
+                        Vasamuseet har öppet
+                        alla
+                        dagar kl.8.30-18. Biljetten köpper du i entrén.</p>
+                    <b class="text-secondary">Varmt välkommen till Vasamuseet!</b>
+                </div>
+            </a>
+            <img class="imgArticle"
+                src="https://www.vasamuseet.se/globalassets/vasamuseet/bilder/besok/barn-och-familj/mork-bild-pa-vasa-spokskeppet.jpg?w=1200">
+        </article>
+        <article class="col-sm-12 col-lg-6 noPading">
+            <a class="aArticle center" href="https://www.vasamuseet.se/besok/two-museums-one-ticket" target="_self">
+                <div>
+                    <h3><i class="fa fa-long-arrow-right"></i> Två museer på en biljett</h3>
+                    <p class="text-secondary">I sommar kan du som besöker Vasamuseet också besöka Vrak med vår nya
+                        bilijett för 290 kronor.</p>
+                </div>
+            </a>
+            <img class="imgArticle"
+                src="https://www.vasamuseet.se/contentassets/a391b8401c2a468c8163445e696dbccf/kampanjpuff-2.jpg?w=1200">
+        </article>
+    </div>
+
+    <div class="row gx-0">
+        <article class="col-sm-12 col-lg-6 noPading">
+            <img class="imgArticle"
+                src="https://www.vasamuseet.se/globalassets/vasamuseet/bilder/besok/audioguide/kvinna-lyssnar-pa-audioguide.jpg?w=1200">
+            <a class="aArticle center" href="https://www.vasamuseet.se/besok/audioguide" target="_self">
+                <div>
+                    <span class="red">Lysnna</span>
+                    <br>
+                    <h3><i class="fa fa-long-arrow-right"></i> Audioguider</h3>
+                    <p class="text-secondary">Vasamuseet audioguider finns tillgängliga på flera språk och ladddas
+                        ner i mobil eller surfplatta med hjälp av gratis trådlöst nätverk på museet.</p>
+                </div>
+            </a>
+        </article>
+        <article class="col-sm-12 col-lg-6 noPading">
+            <img class="imgArticle"
+                src="https://www.vasamuseet.se/globalassets/vasamuseet/bilder/besok/barn-och-familj/fyra-barn-pa-marsen-800-450-anneli-karlsson.jpg?w=1200">
+            <a class="aArticle center" href="https://www.vasamuseet.se/besok/barn/sommarlov" target="_self">
+                <div>
+                    <span class="orange">Barn och familj</span>
+                    <br>
+                    <h3><i class="fa fa-long-arrow-right"></i> Sommarlov</h3>
+                    <p class="text-secondary">Välkommen till oss i sommar. Vi har roliga familjeaktiviteter hela
+                        lovet.
+                    </p>
+                </div>
+            </a>
+        </article>
+    </div>
+
+    <div class="row gx-0">
+        <article class="col-sm-12 col-lg-6 noPading">
+            <a class="aArticle center"
+                href="https://www.vasamuseet.se/besok/utstallningar/tradgarden/upptack-tradgarden" target="_self">
+                <div>
+                    <h3><i class="fa fa-long-arrow-right"></i> Trädgården</h3>
+                    <p class="text-secondary">Njut av historik grönska i museets trädgård. Fri entré.</p>
+                </div>
+            </a>
+            <img class="imgArticle"
+                src="https://www.vasamuseet.se/globalassets/vasamuseet/bilder/utstallningar/tradgarden/vasamuseets-tradgard-skylt.jpg?w=1200">
+        </article>
+        <article class="col-sm-12 col-lg-6 noPading">
+            <a class="aArticle center" href="https://www.vasamuseet.se/om-vasamuseet/vasamuseets-vanner" target="_self">
+                <div>
+                    <h3><i class="fa fa-long-arrow-right"></i> Bli vän</h3>
+                    <p class="text-secondary">Vasamuseets vänner stöttar museet och får ta del av spännande
+                        aktiviteter.
+                    </p>
+                </div>
+            </a>
+            <img class="imgArticle"
+                src="https://www.vasamuseet.se/globalassets/vasamuseet/bilder/vasamuseets-vanner/medlemskap-vasa-silver-och-guld.jpg?w=1200">
+        </article>
+    </div>
+
+    <div class="row gx-0">
+        <article class="col-sm-12 col-lg-6 noPading">
+            <img class="imgArticle"
+                src="https://www.vasamuseet.se/globalassets/vasamuseet/bilder/besok/restaurangen/kanelbulle-i-narbild.jpg?w=1200">
+            <a class="aArticle center" href="https://www.vasamuseet.se/besok/restaurangen" target="_self">
+                <div>
+                    <span class="green">Restaurang</span>
+                    <br>
+                    <h3><i class="fa fa-long-arrow-right"></i> Vasamuseets Restaurang</h3>
+                    <p class="text-secondary">På Vasamuseet restaurang serveras kalla och varma drycker, luncher,
+                        smörgåsar,
+                        sallader och ett urval av
+                        bullar och bakverk. All mat lagas från grunden med svenska råvafof och ecologiskt fokus.</p>
+                </div>
+            </a>
+        </article>
+        <article class="col-sm-12 col-lg-6 noPading">
+            <img class="imgArticle"
+                src="https://www.vasamuseet.se/globalassets/vasamuseet/bilder/besok/kalender/filmen/filmen-om-vasa-biosalong.jpg?w=1200">
+            <a class="aArticle center" href="https://www.vasamuseet.se/besok/filmen-om-vasa" target="_self">
+                <div>
+                    <span class="red">Film</span>
+                    <br>
+                    <h3><i class="fa fa-long-arrow-right"></i> Filmen om Vasa</h3>
+                    <p class="text-secondary">Se filmen om hur skeppet byggdes, sjönk och sedan bärgades. Varje dag
+                        i
+                        museet.</p>
+                </div>
+            </a>
+        </article>
+    </div>
+
+    <div class="row gx-0">
+        <article class="col-sm-12 col-lg-6 noPading">
+            <a class="aArticle center" href="https://www.vasamuseet.se/besok/butik" target="_self">
+                <div>
+                    <span class="green">Butik</span>
+                    <br>
+                    <h3><i class="fa fa-long-arrow-right"></i> Vasamuseet butik</h3>
+                    <p class="text-secondary">Vasamuseet butik har öppet alla dagar kl. 10-17. Här finns fina
+                        presenter
+                        och
+                        souvenirer. De flesta av
+                        våra produkter är unika för Vasamuseet, som replikerna på de föremål som hittades ombord.
+                        Fri
+                        entré.
+                    </p>
+                    <b>Välkommen in!</b>
+                </div>
+            </a>
+            <img class="imgArticle"
+                src="https://www.vasamuseet.se/globalassets/vasamuseet/bilder/besok/butik/webbshop/skal-med-monster-fran-vasa-533-800.jpg?w=1200">
+        </article>
+        <article class="col-sm-12 col-lg-6 noPading">
+            <a class="aArticle center" href="https://www.vasamuseet.se/skola" target="_self">
+                <div>
+                    <span class="lightRed">Skola</span>
+                    <br>
+                    <h3><i class="fa fa-long-arrow-right"></i> För lärare</h3>
+                    <p class="text-secondary">Välkommen till museet med din klass! Vi har kostnadsfria aktiviteter
+                        för
+                        grundskolan, gymnasiet,
+                        SFI-utbildning och specialskolan.</p>
+                </div>
+            </a>
+            <img class="imgArticle"
+                src="https://www.vasamuseet.se/globalassets/vasamuseet/bilder/skola/barn-vid-10-delsmodellen-1000x656px.jpg?w=1200">
+        </article>
+    </div>
+  </main>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script
       src="https://kit.fontawesome.com/3ce877ebb2.js"
       crossorigin="anonymous"
