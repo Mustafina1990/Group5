@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color-text1: rgb(3, 111, 162);
+  --background-color-text2: rgb(136, 70, 150);
+  --black-color: black;
+  --white-color: white;
+  --red-but-color: rgb(107, 28, 28);
+}
+
+.butt-I {
+  position: fixed;
+  top: 50%;
+  right: 2%;
+  background-color: var(--red-but-color);
+  width: 80px;
+  height: 80px;
+  font-size: 3em;
+  border-radius: 5%;
+  color: var(--white-color);
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-div {
+  display: flex;
+  flex-direction: column;
+  width: 33.33%;
+  padding: 2px;
+}
+
+.dec-none {
+  text-decoration: none;
+}
+
+.cont {
+  align-self: center;
+  height: 260px;
+  width: 100%;
+}
+
+.pos-relat1 {
+  position: relative;
+  top: 0;
+}
+
+.img-hight {
+  height: 260px;
+  width: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.pos-abs1 {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.text1-2 {
+  padding: 5px;
+  color: var(--white-color);
+  text-align: center;
+}
+
+.text1 {
+  background-color: var(--background-color-text1);
+}
+
+.text2 {
+  background-color: var(--background-color-text2);
+}
+
+.text {
+  background-color: var(--black-color);
+  font-size: 0.5em;
+  height: 52px;
+  width: 100%;
+  color: var(--white-color);
+  text-align: center;
+}
+
+.color-icon1 {
+  height: ;
+  color: var(--white-color);
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .content div {
+    width: 100%;
+  }
+}
